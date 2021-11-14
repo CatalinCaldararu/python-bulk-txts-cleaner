@@ -1,4 +1,4 @@
-# Bot-Wally-The-CMS-Editor
+# Wordpress Article Uploader made with Selenium
 
 This project had multiple stages.
 1. In the first stage I cleaned up 25K articles and I selected the few eligible ones that were sent to the stage #2.
