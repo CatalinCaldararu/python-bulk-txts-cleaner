@@ -1,5 +1,6 @@
-from selenium import webdriver
-from Utils.wordpressLogin import loginToWordPress
+from Utils.recursiveDeleteArticles import recursiveDeleteArticles
+fromt Utils.countFilesInSubDirs import txtFileCountInSubdirectories
 
-browser = webdriver.Chrome()
-loginToWordPress(browser)
+txtFileCountInSubdirectories()
+recursiveDeleteArticles(600)
+txtFileCountInSubdirectories()

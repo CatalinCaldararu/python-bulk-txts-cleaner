@@ -7,5 +7,5 @@ def allFilesCount(dir, counter=0):
     return dir + " : " + str(counter) + " files"
 
 def txtFileCountInSubdirectories():
-    file_count = sum(len(files) for _, _, files in os.walk(r'articles'))
+    file_count = sum(len(files) for _, _, files in os.walk(r'Articles'))
     print(file_count)

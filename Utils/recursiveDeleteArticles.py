@@ -2,7 +2,7 @@ import os
 directory = os.getcwd()
 
 def recursiveDeleteArticles(wordLimit):
-    for r, _, f in os.walk(r'C:\Users\HP\Desktop\Articles'):
+    for r, _, f in os.walk(r'C:\Users\Catalin\Desktop\bulk-txts-cleaner\Articles'):
         for _f in f:
             apath = os.path.join(r, _f)
             _, ext = os.path.splitext(apath)
